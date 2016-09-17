@@ -2,6 +2,7 @@ package com.zeeshan.administrator.myappportfolio;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -14,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Button Initializations
+
+        Log.e(MainActivity.class.getSimpleName(),"This is for testing purpsoe");
         Button btn_pop_movies = (Button) findViewById(R.id.btn_pop_movies);
         Button btn_stock_hawk = (Button) findViewById(R.id.btn_stock_hawk);
         Button btn_build_it_bigger = (Button) findViewById(R.id.btn_build_it_bigger);
