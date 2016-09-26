@@ -15,8 +15,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Button Initializations
+        // Boast was not developed by me, but was taken from online open source project part
 
-        Log.e(MainActivity.class.getSimpleName(),"This is for testing purpsoe");
+        Log.e(MainActivity.class.getSimpleName(), "This is for testing purpose");
+
         Button btn_pop_movies = (Button) findViewById(R.id.btn_pop_movies);
         Button btn_stock_hawk = (Button) findViewById(R.id.btn_stock_hawk);
         Button btn_build_it_bigger = (Button) findViewById(R.id.btn_build_it_bigger);
@@ -28,48 +30,50 @@ public class MainActivity extends AppCompatActivity {
         btn_pop_movies.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "This button will launch my Popular Movies app",
-                        Toast.LENGTH_LONG).show();
+                Boast.showText(getApplicationContext(), R.string.pop_movies_project,
+                        Toast.LENGTH_LONG);
+
             }
         });
 
         btn_stock_hawk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "This button will launch my Stock Hawk app",
-                        Toast.LENGTH_LONG).show();
+                Boast.showText(getApplicationContext(), R.string.stock_hawk_project,
+                        Toast.LENGTH_LONG);
+
             }
         });
 
         btn_build_it_bigger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "This button will launch my Build it Bigger app",
-                        Toast.LENGTH_LONG).show();
+                Boast.showText(getApplicationContext(), R.string.build_it_bigger_project,
+                        Toast.LENGTH_LONG);
             }
         });
 
         btn_make_your_app_material.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "This button will launch my Make Your App Material app",
-                        Toast.LENGTH_LONG).show();
+                Boast.showText(getApplicationContext(), R.string.build_it_bigger_project,
+                        Toast.LENGTH_LONG);
             }
         });
 
         btn_go_ubiquitous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "This button will launch my Go Ubiquitous app",
-                        Toast.LENGTH_LONG).show();
+                Boast.showText(getApplicationContext(), R.string.go_ubiqitous_project,
+                        Toast.LENGTH_LONG);
             }
         });
 
         btn_capstone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "This button will launch my Capstone app",
-                        Toast.LENGTH_LONG).show();
+                Boast.showText(getApplicationContext(), R.string.capstone_project,
+                        Toast.LENGTH_LONG);
             }
         });
 

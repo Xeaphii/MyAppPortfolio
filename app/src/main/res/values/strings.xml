@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My App Portfolio</string>
+    <string name="pop_movies_project">This button will launch my Popular Movies app</string>
+    <string name="stock_hawk_project">This button will launch my Stock Hawk app</string>
+    <string name="build_it_bigger_project">This button will launch my Build it Bigger app</string>
+    <string name="material_app_project">This button will launch my Make Your App Material app</string>
+    <string name="go_ubiqitous_project">This button will launch my Go Ubiquitous app</string>
+    <string name="capstone_project">This button will launch my Capstone app</string>
 </resources>
